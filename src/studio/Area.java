@@ -7,7 +7,11 @@ public class Area {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the radius:");
         double radius = input.nextDouble();
-        double area = Circle.getArea(radius);
-        System.out.println("Area of the Rectangle of radius " + radius +" is: "+ area);
+        if(radius > 0) {
+            double area = Circle.getArea(radius);
+            System.out.println("Area of the Rectangle of radius " + radius + " is: " + area);
+        }else{
+            System.out.println("Enter the valid input");
+        }
     }
 }
