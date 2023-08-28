@@ -1,4 +1,4 @@
-package studio;
+package org.launchcode.java.demos.lsn1datatypes.studio;
 
 import java.util.Scanner;
 
